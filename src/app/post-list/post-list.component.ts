@@ -11,7 +11,8 @@ export class PostListComponent implements OnInit {
     permlink: 'permlink',
     tag: 'tag',
     votes: 12,
-    payout: '1.251 SBD'
+    payout: '1.251 SBD'.split(' ')[0],
+    comments: 5
   }
 
   constructor() { }
